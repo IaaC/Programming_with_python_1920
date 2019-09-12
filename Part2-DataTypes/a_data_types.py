@@ -42,17 +42,29 @@ print ("strings are defined by \" \" or \' \' ")
 my_data = "This is a text"
 print (my_data)
 data_type = type(my_data)
-print (data_type)
+print (data_type, '\n')
 
 print ("with strings + works as concatenation")
 my_data = "hello" + " world"
 print (my_data)
 print ("'10' + '10' = 1010 ")
 my_data = '10' + '10'
-print (my_data)
+print (my_data, '\n')
 
 # print ("we cannot mix data types in arithmetic operations")
 # text_val = "10"
 # num_val = 5
 # sum = text_val + num_val
 # print (sum)
+
+print ("Strings are 'ordered sequences' which means we can use indexing or slicing to separate a part of it")
+my_data = "hello"
+first_character = my_data[0]
+second_character = my_data[1]
+sub_data = my_data[0:2]
+last_character = my_data[-1]
+print (first_character)
+print (second_character)
+print (sub_data)
+print (last_character)
+print ("hello has", len(my_data), "characters")
