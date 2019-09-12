@@ -36,3 +36,27 @@ print(result)
 result = 1 / 2 * 3 - 4 + 5
 print('Is different than the result of - 1 / 2 * 3 - 4 + 5 -: ')
 print(result)
+
+
+# Lastly, there are additional arithmetic functions
+result = 20 % 8
+print('............................')
+print('If you want to know the reminder value when dividing two numbers you should use the modulus operator - % -')
+print('The modulus result of - 20 % 8- is:')
+print(result)
+
+
+result = 20 // 8
+print('............................')
+print('If you want to know the quotient value when dividing two numbers you should use the modulus operator - % -')
+print('The modulus result of - 10 // 4- is:')
+print(result)
+
+# See what happens when you divide negative numbers
+
+
+result = 2 ** 8
+print('............................')
+print('If you want perform the power operation you should use the exponent operator - ** -')
+print('The modulus result of - 2 ** 8 - is:')
+print(result)
