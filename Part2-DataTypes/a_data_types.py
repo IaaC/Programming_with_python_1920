@@ -44,12 +44,19 @@ print (my_data)
 data_type = type(my_data)
 print (data_type, '\n')
 
-print ("with strings + works as concatenation")
+print ("we can do string concatenation using + sign")
 my_data = "hello" + " world"
 print (my_data)
-print ("'10' + '10' = 1010 ")
-my_data = '10' + '10'
+print ("'1' + '0' = 10 ")
+my_data = '1' + '0'
 print (my_data, '\n')
+
+print ("and sting multipication using * sign")
+my_data = "a"
+repeat = 10
+new_data = my_data * repeat
+print (my_data)
+print (new_data, '\n')
 
 # print ("we cannot mix data types in arithmetic operations")
 # text_val = "10"
