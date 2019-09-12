@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 ##################################################
-# This script shows an example of variable assignment.
+# This script shows an example of arithmetic operators.
 # First, it shows different options for using arithmetic operators.
 # This operators allow to perform basic arithmetic calculus.
 #
