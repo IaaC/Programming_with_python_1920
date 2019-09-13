@@ -5,7 +5,6 @@
 
 These are the average values for Barcelona calculated with data collected between 1982-2010. 
 Values are related to the following values:
-Leyenda
 - T	Average monthly/yearly temperature (°C)
 - TM Average monthly/yearly max daily temperatures (°C)
 - Tm Average monthly/yearly min daily temperature (°C)
