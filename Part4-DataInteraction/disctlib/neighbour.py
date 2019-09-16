@@ -1,10 +1,9 @@
 # encoding: utf-8
 
 ##################################################
-# This script shows an example of a script  calling an third-party script that serves to simplify programming.
-# It uses the -- import -- command to refer to the external script.
-# These ways of using or structuring source code are very common when programming with python
-# they serve to make code simpler and distribute individual parts of programs
+# This script interacts with data files to extract information and modify values given to a function.
+# It is part of an exercise in which data about districts and neighbourhoods are processed
+# Here we have the functions for manipulating information about neighbourhoods
 #
 ##################################################
 #
@@ -19,8 +18,15 @@
 # Status: development
 ##################################################
 
-# We need to call the library we named -- ourlib --
+# need libraries to read external files
+import csv
 
-import ourlib.our_script
+neighbourhoods = {}
 
-ourlib.our_script.our_help()
+
+def read_neighbourhoods():
+    print('reading')
+
+
+def get_neighbourhoods():
+    return neighbourhoods

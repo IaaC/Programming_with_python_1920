@@ -31,7 +31,7 @@ print(result)
 print('Do not forget the concept of precedence within arithmetic operators. '
       'There are differences when using operators in different positions')
 result = 1 + 2 - 3 * 4 / 5
-print('The result of - 1 + 2 - 3 * 4 / 5 -: ')
+print('The result of - 1 + 2 - 3 * 4 / 5 - is: ')
 print(result)
 result = 1 / 2 * 3 - 4 + 5
 print('Is different than the result of - 1 / 2 * 3 - 4 + 5 -: ')

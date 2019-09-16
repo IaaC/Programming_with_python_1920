@@ -31,6 +31,3 @@ while i < condition:
     i += 1
 else:
     print("i is no longer less than " + str(condition))
-
-
-# game with random number
