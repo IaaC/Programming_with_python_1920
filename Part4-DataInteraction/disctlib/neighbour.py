@@ -21,11 +21,27 @@
 # need libraries to read external files
 import csv
 
-neighbourhoods = {}
+neighbourhoods = dict()
+tags = []
 
 
-def read_neighbourhoods():
-    print('reading')
+def read_neighbourhoods(path):
+    with open(path) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        line_count = 0
+        for row in csv_reader:
+            if line_count == 0:
+                tags =  row
+                print(f'Column names are {", ".join(tags)}')
+                line_count += 1
+            else:
+                neighbourhood = dict()
+                neighbourhood[tags[0]] = int(row[0])
+                neighbourhood[tags[2]] = row[2]
+                neighbourhood[tags[3]] = int(row[3])
+                neighbourhoods[row[1]] = neighbourhood
+                line_count += 1
+        print(f'Processed {line_count} lines.')
 
 
 def get_neighbourhoods():

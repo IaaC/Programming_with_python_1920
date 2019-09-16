@@ -3,7 +3,7 @@
 ##################################################
 # This script interacts with data files to extract information and modify values given to a function.
 # It is part of an exercise in which data about districts and neighbourhoods are processed
-# Here we have the firs part of the script that calls an external script that reads districts data
+# Here we have the second part of the script that calls an external script to read neighbourhoods data
 #
 ##################################################
 #
@@ -19,17 +19,17 @@
 ##################################################
 
 # Here we refer to the third-party scripts
-import disctlib.district as d
+import disctlib.neighbour as n
 
 
 # Here some global variables to set paths and other details
 
-districts_path = '../Data/districts_BCN.csv'
+neighbourhoods_path = '../Data/neighbourhoods_BCN.csv'
 
-d.read_districts(districts_path)
+n.read_neighbourhoods(neighbourhoods_path)
 
-print('Here you have a list of lists with the districts of Barcelona\n')
-print(d.get_districts())
+print('Here you have a dictionary with the neighbourhood of Barcelona\n')
+print(n.get_neighbourhoods())
 
 
 
