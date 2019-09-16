@@ -13,4 +13,4 @@ The course is designed to have four parts. Part one goes across the fundamental 
 
 After the course, students will have a clear perspective of the principles of computer programming and basic applications for advance architecture, urban analytics, physical computing and robotics. Students will produce different scripts in which they apply the concepts explained. All exercises will become a GitHub repository that, together with the reference documentation, will serve for future references during the masterclasses. Both MaCT and MRAC programs will build upon this course a series of courses to develop further student’s programming skills as well as to apply such skills in problem-solving, design and analysis tasks commonly seen in the field of advanced architecture.
 
-[logo](https://iaac.net/wp-content/uploads/2018/04/iaac-logo-barcelona3-02-e1530616209881.png)
+![logo](https://iaac.net/wp-content/uploads/2018/04/iaac-logo-barcelona3-02-e1530616209881.png)
