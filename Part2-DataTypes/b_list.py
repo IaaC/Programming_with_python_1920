@@ -48,7 +48,7 @@ print (type(last_item))
 print (sub_list,'\n')
 
 
-print ("addoing lists together")
+print ("adding lists together")
 list_a = [1,2]
 list_b = ['Three','Four','Five']
 my_list = list_a + list_b

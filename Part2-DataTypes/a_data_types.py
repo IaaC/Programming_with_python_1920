@@ -74,7 +74,7 @@ print ("'1' + '0' = 10 ")
 my_data = '1' + '0'
 print (my_data, '\n')
 
-print ("and sting multipication using * sign")
+print ("and sting multiplication using * sign")
 my_data = "a"
 repeat = 10
 new_data = my_data * repeat
