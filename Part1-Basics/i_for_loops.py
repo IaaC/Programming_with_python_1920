@@ -30,7 +30,7 @@ for i in range(10):
 print('................................')
 print('You can also use the counter value as part of internal functions')
 text = 'This is iteration number: '
-for i in range(11, 20):
+for i in range(11, 20, 3):
     print(text + str(i))
 
 print('................................')

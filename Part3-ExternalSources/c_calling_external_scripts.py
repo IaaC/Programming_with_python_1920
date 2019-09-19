@@ -23,13 +23,4 @@
 
 import ourlib.our_script
 
-
-def say_hi(name):
-    print('Hi', name)
-
-
-name = 'type your name here'
-say_hi(name)
-
-
 ourlib.our_script.our_help()
